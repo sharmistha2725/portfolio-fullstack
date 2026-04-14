@@ -174,7 +174,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("https://portfolio-backend-kt0w.onrender.com", {
+      const res = await fetch("https://portfolio-backend-kt0w.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
