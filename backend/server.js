@@ -37,7 +37,7 @@ const transporter = nodemailer.createTransport({
 });
 
 // ✅ FIXED ROUTE HERE 👇
-app.post("/api/contact", async (req, res) => {
+app.post("https://portfolio-backend-kt0w.onrender.com/contact", async (req, res) => {
   console.log("📩 Received:", req.body);
 
   try {
